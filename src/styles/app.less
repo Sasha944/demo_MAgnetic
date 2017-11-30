@@ -6,15 +6,12 @@
 	background: none !important;
     border: none !important;
     &>li{
-    	background: none !important;
-    border: none !important;
+
     &>a{
-    	color: black !important;
+    	width: 100%;
     	font-weight: bold;
         outline-color: transparent !important;
-    	&:focus{
-    		color: #272797 !important
-    	}
+
     }
     }
 }
@@ -30,3 +27,60 @@
 #myModalLabel{
     color:white;
 }
+.ui-state-active{
+	background: #506579;
+ }
+.ui-tabs-tab{
+	cursor: pointer;
+}
+.ui-state-active>a{
+	color: blue;
+}
+.ui-tabs-anchor{
+	width: 100%;
+}
+#tabs-2{
+	height: 400px;
+	position: relative;
+}
+.teamLead{
+	position: absolute;
+	bottom: -2%;
+	width: 100%;
+	left: 0;
+	padding: 1em 1.4em;
+	label{
+		font-size: 16px;
+	}
+}
+select{
+	padding: 0;
+	height: 24px;
+}
+#AllUser,#SelectedUser{
+	height: 28px;
+	padding:0 12px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	background: #545c65;
+}
+#teamLead{
+	height: 30px;
+	padding: 0 12px;
+}
+.ui-state-active a, .ui-state-active a:link{
+	color: #a3ccec;
+}
+.refresh:before{
+	font-family: FontAwesome;
+	content: "\f021";
+	font-size: 18px;
+	display: inline-block;
+}
+.refresh{
+	position: absolute;
+	left: -8px;
+	bottom: 3px;
+}
+
+
